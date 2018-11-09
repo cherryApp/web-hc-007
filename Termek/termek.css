@@ -11,11 +11,13 @@ div.class {
 }
 .menu a {
     font-family: 'Patrick Hand', cursive;
-    font-size: 24px;
+    font-size: 34px;
     font-style: italic;
-    padding: 20px;
+    padding: 5px 30px;
     color: rgb(153, 51, 0);
-    margin: auto auto 20px;
+    margin: 0 0 20px;
+    background-color: rgb(236, 236, 236);
+    border-radius: 3px;
 }
 hr {
     border-style: solid;
@@ -37,7 +39,7 @@ h1 {
     width: 400px;
     height: 400px;
     padding: 0;
-    margin: 0 10px;
+    margin: 50px 90px;
     border: 1px solid lightgrey;
     box-shadow: 5px;
 }
@@ -45,8 +47,15 @@ h1 {
     font-family: 'Roboto Slab', serif;
     padding: 0 30px 0 25px;
     margin: 0 300px;
-    text-align: right;
+    text-align: left;
     display: inline-block;
+}
+.ratings h2 {
+    font-size: 30px;
+    font-style: italic;
+    font-family: 'Roboto Slab', serif;
+    text-align: left;
+    padding-left: 60px;
 }
 footer {
     margin: 10px 50px 10px auto;
