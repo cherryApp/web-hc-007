@@ -74,17 +74,21 @@ h1 {
     padding: 6px;
 }
 .ratings h2 {
-    font-size: 30px;
+    font-size: 24px;
     font-style: italic;
     font-family: 'Roboto Slab', serif;
     text-align: left;
     padding-left: 60px;
 }
 #ratings {
+    font-family: 'Pacifico', cursive;
     font-size: 14pt;
     text-align: left;
     padding-left: 120px;
-    
+}
+#text {
+    display: inline;
+    padding-left: 25px;
 }
 footer {
     margin: 10px 50px 10px auto;
