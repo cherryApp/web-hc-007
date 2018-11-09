@@ -16,6 +16,7 @@ function listData(data){
     for (var k in data) {
         var card = document.createElement('div');
         card.style.display = 'inline-block';
+        card.className = 'product-card';
         card.innerHTML = template;
         cards.appendChild(card);
 
