@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <link rel="stylesheet" href="cart.css">
     <meta charset="UTF-8">
@@ -7,47 +8,42 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
 </head>
+
 <body>
     <header>
-<nav>
-    <div >
+        <nav>
+            <div>
 
-   <ul>
-       <li>
-           <a href="#">Kezdőlap</a>
-        </li>
-       <li><a href="#">Termékek</a>
-    </li>
-       <li><a href="#">Kosár</a>
-    </li>
-       <li><a href="#">Rólunk</a>
-    </li>
+                <ul>
+                    <li>
+                        <a href="#">Kezdőlap</a>
+                    </li>
+                    <li><a href="#">Termékek</a>
+                    </li>
+                    <li><a href="#">Kosár</a>
+                    </li>
+                    <li><a href="#">Rólunk</a>
+                    </li>
 
-   </ul>
-   </div>
+                </ul>
+            </div>
 
-</nav>
+        </nav>
 
 
     </header>
-<h1>Kosár</h1>
+    <h1>Kosár</h1>
+    <div class="product-container">
+        <div class="product-div">
+            <input class="name-input" type="text" disabled>
+            <input class="amount-input" type="number">
+            <input type="text" class="sum-input" disabled>
+            <button type="submit">Törlés</button>
+            <button type="submit">Fizetés</button>
+        </div>
 
-
-<div>
-    <div>
-            <select>
-                    <option value="Gőzölős vasaló">Gőzölős vasaló</option>
-                    <option value="Mosogatógép">Mosogatógép</option>
-                    <option value="Kutyatáp">Kutyatáp</option>
-                </select><br>
-
-                
-                <input type="number"><br>
     </div>
-    <button type="submit">Törlés</button><br>
-<button type="submit">Fizetés</button>
-
-</div>
- <script src="cart.js"></script>  
+    <script src="cart.js"></script>
 </body>
+
 </html>
