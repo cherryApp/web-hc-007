@@ -16,7 +16,7 @@
             <a href="file:///C:/Users/Training/Documents/Contact.html">Rólunk</a></div>
             
             <div class="cards">      
-                   <a href="#"><img src="#"></a><p>Megnevezés</p><p>Ár</p><button>Tovább</button>
+                   <a href="#"><img src="#"></a><p>Megnevezés</p>
                     <a href="#"><img src="#"></a><p>Megnevezés</p>
                     <a href="#"><img src="#"></a><p>Megnevezés</p>
                     <a href="#"><img src="#"></a><p>Megnevezés</p>
@@ -39,6 +39,20 @@
         <a href="file:///C:/Users/Training/Documents/About.html">About</a><br>
         <a href="file:///C:/Users/Training/Documents/Contact.html">Contact</a><br>
     </footer>
-</div>    
+</div>   
+    <script>
+        
+        var url = '/api/list.json';
+            function getData(url) {
+                fetch(url).then( function(r) {
+                    return r.json();
+                }).then( function(j) {
+                    console.log( j );
+                })
+            }
+
+            getData(url);
+    
+    </script>
     </body>
 </html>
