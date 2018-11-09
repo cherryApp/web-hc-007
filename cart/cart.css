@@ -1,0 +1,10 @@
+h1{
+    background: blue;
+    color:white;
+    text-align: center;
+    text-shadow: 12px;
+}
+
+li {
+    float: left;
+}
