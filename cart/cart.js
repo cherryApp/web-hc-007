@@ -10,8 +10,9 @@ function getData(url) {
 
 getData(url);
 
-document.getElementById('del').addEventListener('click', load);
 
 function load(data) {
+    document.querySelector('#del').innerHTML;
+
     
 }
