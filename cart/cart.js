@@ -11,6 +11,7 @@ function getData(url) {
 
 getData(url);
 
+<<<<<<< HEAD
 var template = document.querySelector('.product-div');
 var cont = document.querySelector('.product-container');
 template.style.display = 'none';
@@ -40,4 +41,11 @@ function load() {
 
 function getSum(data) {
     return data.price * data.amount;
+=======
+
+function load(data) {
+    document.querySelector('#del').innerHTML;
+
+    
+>>>>>>> dccec2a44b2af956d61f29324194088dc6c35494
 }
