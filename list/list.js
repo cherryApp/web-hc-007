@@ -10,11 +10,20 @@ function getData(url) {
 getData(url);
 
 function listData(data){
-    document.getElementById('name').innerHTML = data.name;
-    document.getElementById('manufacturer').innerHTML = data.manufacturer;
-    document.getElementById('price').innerHTML = data.price;
-    document.getElementById('available').innerHTML = data.available;
-    document.getElementById('pruduct-img').innerHTML = data.img;
+    var template = document.querySelector('.product-card').innerHTML;
+    var cards = document.querySelector('.cards');
+
+    for (var k in data) {
+        var card = document.createElement('div');
+        card.style.display = 'inline-block';
+        card.className = 'product-card';
+        card.innerHTML = template;
+        cards.appendChild(card);
+
+        card.querySelector('.product-img').src = data[k].img;
+        card.querySelector('.name').innerHTML = data[k].name;
+        card.querySelector('.price').innerHTML = data[k].price;
+    }
 }
 
 
