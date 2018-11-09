@@ -14,7 +14,7 @@ function listData(data){
     document.getElementById('manufacturer').innerHTML = data.manufacturer;
     document.getElementById('price').innerHTML = data.price;
     document.getElementById('available').innerHTML = data.available;
-    document.getElementById('img').innerHTML = data.img;
+    document.getElementById('pruduct-img').innerHTML = data.img;
 }
 
 
