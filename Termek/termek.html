@@ -8,7 +8,7 @@
     <link href="/Termek/termek.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Patrick+Hand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
 </head>
 <body>
     <div class="menu">
@@ -20,18 +20,25 @@
     </div>
     <hr>
     <h1 id="name"></h1>
-    <div class="image">
-        <img id="image" src="">
-    </div>
-    <div class="leiras">
-        <p id="name"></p>
-        <p id="manufacturer"></p>
-        <p id="price"></p>
-        <p id="available"></p>
-        <p id="description"></p>
-        <label for="megrendeles">
-            <input id="megrendeles" type="button" name="megrendeles" value="Megrendelés">
-        </label>
+    <div class="foresz">
+        <img class="image" id="image" src="">
+        <div class="leiras">
+            <p>Gyártó: 
+                <a id="manufacturer"></a>
+            </p>
+            <p>A termék ára (Ft-ban): 
+                <a id="price"></a>
+            </p>
+            <p>Raktáron (db):
+                <a id="available"></a>
+            </p>
+            <p>Leírás:
+                <a id="description">A termék rövid leírása:</a>
+            </p>
+            <label for="megrendeles">
+                <input id="megrendeles" type="button" name="megrendeles" value="Megrendelés">
+            </label>
+        </div>
     </div>
     <div class="ratings">
         <h2 class="ratings1">Értékelések:</h2>
