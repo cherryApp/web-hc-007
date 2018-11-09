@@ -1,3 +1,12 @@
+@media screen and (max-width: 639px) {
+    width: 30%;
+}
+@media screen and (min-width: 640px) and (max-width: 1023px) {
+    width: 60%;
+}
+@media screen and (min-width: 1024px) {
+    width: 100%
+}
 body {
     background-color: azure;
     text-align: center;
