@@ -45,10 +45,33 @@ h1 {
 }
 .leiras {
     font-family: 'Roboto Slab', serif;
-    padding: 0 30px 0 25px;
-    margin: 0 300px;
+    padding: 120px 30px 0 25px;
+    margin: 0 30px;
     text-align: left;
     display: inline-block;
+    vertical-align: top;
+}
+.leiras p {
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+}
+.leiras p a {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    padding-left: 25px;
+}
+#megrendeles {
+    font-size: 16px;
+    font-weight: bold;
+    border-style: hidden;
+    border-radius: 5px;
+    background-color: rgb(255, 153, 153);
+    box-shadow: 3px;
+    margin-left: 160px;
+    cursor: pointer;
+    padding: 6px;
 }
 .ratings h2 {
     font-size: 30px;
@@ -56,6 +79,12 @@ h1 {
     font-family: 'Roboto Slab', serif;
     text-align: left;
     padding-left: 60px;
+}
+#ratings {
+    font-size: 14pt;
+    text-align: left;
+    padding-left: 120px;
+    
 }
 footer {
     margin: 10px 50px 10px auto;
