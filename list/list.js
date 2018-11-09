@@ -19,7 +19,6 @@ function listData(data){
         card.className = 'product-card';
         card.innerHTML = template;
         cards.appendChild(card);
-
         card.querySelector('.product-img').src = data[k].img;
         card.querySelector('.name').innerHTML = data[k].name;
         card.querySelector('.price').innerHTML = data[k].price;
