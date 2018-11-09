@@ -15,6 +15,7 @@ function loadData(data){
     document.getElementById('price').innerHTML = data.price ;
     document.getElementById('available').innerHTML = data.available ;
     document.getElementById('description').innerHTML = data.description ;
+    document.getElementById('ratings').innerHTML = data.ratings ;
 
 }
 
