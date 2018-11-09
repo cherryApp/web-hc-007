@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Gőzölős vasaló",
+        "manufacturer": "Bosch",
+        "price": 15000,
+        "amount": 1
+    },
+    {
+        "name": "Mosogatógép",
+        "manufacturer": "Siements",
+        "price": 150000,
+        "amount": 1
+    },
+    {
+        "name": "Kutyatáp",
+        "manufacturer": "Purina",
+        "price": 8900,
+        "amount": 3
+    }
+]

@@ -1,0 +1,25 @@
+{
+    "name": "Gőzölős vasaló",
+    "manufacturer": "Bosch",
+    "price": 15000,
+    "available": 3,
+    "description": "Hozzon józan döntést az alkoholizmus ellen",
+    "ratings": [
+        {
+            "user": "Kiss Béla",
+            "text": "Szuper termék"
+        },
+        {
+            "user": "Kiss Béla",
+            "text": "Szuper termék"
+        },
+        {
+            "user": "Kiss Béla",
+            "text": "Szuper termék"
+        },
+        {
+            "user": "Kiss Béla",
+            "text": "Szuper termék"
+        }
+    ]
+}
