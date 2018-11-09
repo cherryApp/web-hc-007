@@ -1,4 +1,5 @@
 var url = '/api/cart.json';
+
 function getData(url) {
     fetch(url).then(function (r) {
         return r.json();
@@ -6,4 +7,5 @@ function getData(url) {
         console.log(j);
     })
 }
+
 getData(url);
