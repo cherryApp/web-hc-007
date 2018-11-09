@@ -1,4 +1,4 @@
-var url = 'cart.json';
+var url = '/api/cart.json';
 
 function getData(url) {
     fetch(url).then(function (r) {
