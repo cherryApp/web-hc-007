@@ -20,10 +20,10 @@ margin-right:100px;
 .cards {
  margin left: 200px;   
 }
-.card {
-display:inline-block;
+.product-card {
+    display: none;
 }
-.card a {
+.product-card a {
 margin-left: 350px;
 border: 2px outset rgba(0,0,0,0.28);
 padding:8px;
@@ -35,7 +35,11 @@ font-family: 'Roboto', sans-serif;
 color: black;
 }
 
-p{
+.product-card p{
+
+}
+
+p {
 text-align: justify; 
 margin-top:auto;
 margin-right:100px;
@@ -50,7 +54,6 @@ margin-top: 50px;
 margin-right: 50px;
 margin-bottom:50px;
 margin-left: 280px;  
-
 }
 
 .footer{
